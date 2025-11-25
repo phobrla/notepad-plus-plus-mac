@@ -1,0 +1,9 @@
+# Sensitive configuration files
+**/NppOpenAI.ini
+**/NppGist.ini
+
+# User-specific Notepad++ backup files
+**/backup/
+
+# macOS system files
+.DS_Store
