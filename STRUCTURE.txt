@@ -1,0 +1,112 @@
+.
+├── AppIcon.iconset
+│   ├── icon_128x128.png
+│   ├── icon_128x128@2x.png
+│   ├── icon_16x16.png
+│   ├── icon_16x16@2x.png
+│   ├── icon_256x256.png
+│   ├── icon_256x256@2x.png
+│   ├── icon_32x32.png
+│   ├── icon_32x32@2x.png
+│   ├── icon_512x512.png
+│   └── icon_512x512@2x.png
+├── BUILD_INSTRUCTIONS.md
+├── CLAUDE.md
+├── CONTRIBUTING.md
+├── IMPLEMENTATION_STATUS.md
+├── LICENSE
+├── NEXT_FEATURES.md
+├── Notepad++
+│   ├── Assets.xcassets
+│   │   ├── AccentColor.colorset
+│   │   ├── AppIcon.appiconset
+│   │   └── Contents.json
+│   ├── ContentView.swift
+│   ├── Extensions
+│   │   ├── NSColor+Hex.swift
+│   │   ├── NSSavePanel+Async.swift
+│   │   ├── NSTextView+BraceMatch.swift
+│   │   ├── NSTextView+Indentation.swift
+│   │   ├── NSTextView+NotepadPort.swift
+│   │   ├── NSTextView+ScintillaAPI.swift
+│   │   ├── NSTextView+ScintillaExecute.swift
+│   │   └── NSTextView+SmartHighlight.swift
+│   ├── Models
+│   │   ├── AllLanguageDefinitions.swift
+│   │   ├── AppSettings.swift
+│   │   ├── DarkModeConf.swift
+│   │   ├── DockingManagerData.swift
+│   │   ├── Document.swift
+│   │   ├── FoldingRegion.swift
+│   │   ├── GlobalOverride.swift
+│   │   ├── LanguageDefinition.swift
+│   │   ├── MatchedPairConf.swift
+│   │   ├── NewDocDefaultSettings.swift
+│   │   ├── NotepadPlusLanguage.swift
+│   │   ├── NppGUI.swift
+│   │   ├── PrintSettings.swift
+│   │   ├── ScintillaViewParams.swift
+│   │   ├── SearchOptions.swift
+│   │   ├── SearchResult.swift
+│   │   ├── Session.swift
+│   │   └── Tab.swift
+│   ├── Notepad__.entitlements
+│   ├── Notepad__App.swift
+│   ├── Resources
+│   │   ├── autoCompletion
+│   │   ├── contextMenu.xml
+│   │   ├── functionList
+│   │   ├── langs.model.xml
+│   │   ├── languages.json
+│   │   ├── shortcuts.xml
+│   │   ├── stylers.model.xml
+│   │   └── themes
+│   ├── ScintillaPort
+│   │   ├── CellBuffer.swift
+│   │   ├── LexCPP.swift
+│   │   ├── ScintillaDocument.swift
+│   │   ├── StyleContext.swift
+│   │   └── WordList.swift
+│   ├── Services
+│   │   ├── AdvancedSearchManager.swift
+│   │   ├── EncodingManager.swift
+│   │   ├── FeatureGates.swift
+│   │   ├── FileMonitor.swift
+│   │   ├── FoldingManager.swift
+│   │   ├── IndentationManager.swift
+│   │   ├── LanguageManager.swift
+│   │   ├── LanguageXMLParser.swift
+│   │   ├── ScintillaLexerPort.swift
+│   │   └── SyntaxHighlighter.swift
+│   ├── ViewModels
+│   │   ├── AutoCompletionEngine.swift
+│   │   ├── BackupManager.swift
+│   │   ├── DocumentManager.swift
+│   │   ├── PerformanceManager.swift
+│   │   ├── SettingsManager.swift
+│   │   └── ThemeManager.swift
+│   └── Views
+│       ├── BookmarksView.swift
+│       ├── BracketHighlightTextEditor.swift
+│       ├── DebugBracketHighlightTextEditor.swift
+│       ├── DocumentTextEditor.swift
+│       ├── EditorView.swift
+│       ├── FindInFilesView.swift
+│       ├── FindReplaceBar.swift
+│       ├── FindReplaceTestView.swift
+│       ├── FindReplaceView.swift
+│       ├── FoldableTextEditor.swift
+│       ├── FoldingLineNumberView.swift
+│       ├── LanguageMenuView.swift
+│       ├── Settings
+│       ├── SyntaxTextEditor.swift
+│       └── TabBarView.swift
+├── Notepad++.xcodeproj
+│   ├── project.pbxproj
+│   └── project.xcworkspace
+│       └── contents.xcworkspacedata
+├── PORTING_NOTES.md
+├── README.md
+└── STRUCTURE.txt
+
+19 directories, 91 files
